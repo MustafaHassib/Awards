@@ -1,0 +1,96 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  background-color: #f4f7f6;
+
+}
+/* G E N E R A L ~ S T Y L E S*/
+*{
+  transition: all .1s ease-in-out;
+}
+a{color: #202121;}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+/* G E N E R A L ~ S T Y L E S*/
+/* H E A D E R */
+.top-nav{
+  background-color: #f4f7f6;
+  padding: 0 0 0 10px;
+  color: #202121;
+  line-height: 70px;
+  border-bottom: 1px solid #E6EAEA;
+}
+
+.top-nav #lang-switch{
+  border-bottom: 1px solid #202121;
+}
+
+.social-icons a{ margin-left: .7em; display: inline-block;}
+#logo{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2em;
+}
+.navbar{line-height: 40px;}
+.bg-light{
+  background-color: #f4f7f6 !important;
+}
+.main-menu-btn{
+  border-radius: 0;
+  border: none;
+  line-height: 60px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+.main-menu-btn:hover,.social-icons a:hover{
+  color: #20212190;
+}
+/* H E A D E R */
+
+/* M A I N ~ C O N T E N T*/
+
+
+/* M A I N ~ C O N T E N T*/
+
+
+/* F O O T E R */
+
+footer{
+  background-color: white;
+  padding: 50px 0;
+}
+.footer-menu ul{padding: 0;}
+.footer-menu ul li{
+  display: inline-block;
+  font-weight: 600;
+}
+.footer-menu  button{
+  padding: .375rem .35rem .35rem 0;
+  font-size: 16px;
+}
+.copyrights{
+  color: #777;
+  font-weight: 300;
+}
+.copyrights span{
+  color: #202121;
+  font-weight: 800;
+}
+footer .social-icons a{
+  margin: 0 .7em 0 0;
+}
+footer .schedule{
+  font-weight: 400;
+  font-size: 1.5em;
+
+}
+.schedule a{
+  font-weight: 700;
+  border-bottom: 1px solid #202121;
+  margin-left: .2em;
+}
+/* F O O T E R */
