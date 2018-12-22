@@ -1,0 +1,25 @@
+/* cookies bar */
+
+.cookies
+{
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: auto;
+}
+
+.cookies a
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.cookies button
+{
+    background-color: #49c5b6;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    
+}
