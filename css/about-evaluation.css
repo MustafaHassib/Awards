@@ -1,0 +1,267 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  background-color: #f4f7f6;
+
+}
+/* G E N E R A L ~ S T Y L E S*/
+*{
+  transition: all .1s ease-in-out;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+a{color: #202121;}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+/* G E N E R A L ~ S T Y L E S*/
+/* H E A D E R */
+.top-nav{
+  background-color: #f4f7f6;
+  padding: 0 0 0 10px;
+  color: #202121;
+  line-height: 70px;
+  border-bottom: 1px solid #E6EAEA;
+}
+
+
+.navbar
+{
+    width: 100% !important;
+}
+
+#about
+{
+    color: black !important;
+}
+
+.about-menu 
+{
+    border-right:  1px solid #dee2e6!important;
+    padding: 0px 3px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.6) !important;
+}
+
+
+.top-nav #lang-switch{
+  border-bottom: 1px solid #202121;
+}
+
+.social-icons a{ margin-left: .7em; display: inline-block;}
+#logo{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2em;
+}
+.navbar{line-height: 40px;}
+.bg-light{
+  background-color: #f4f7f6 !important;
+}
+.main-menu-btn{
+  border-radius: 0;
+  border: none;
+  line-height: 60px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+.main-menu-btn:hover,.social-icons a:hover{
+  color: #20212190;
+}
+/* H E A D E R */
+
+/* M A I N ~ C O N T E N T*/
+
+
+/* M A I N ~ C O N T E N T*/
+
+
+/* F O O T E R */
+
+footer{
+  background-color: white;
+  padding: 50px 0;
+}
+.footer-menu ul{padding: 0;}
+.footer-menu ul li{
+  display: inline-block;
+  font-weight: 600;
+}
+.footer-menu  button{
+  padding: .375rem .35rem .35rem 0;
+  font-size: 16px;
+}
+.copyrights{
+  color: #777;
+  font-weight: 300;
+}
+.copyrights span{
+  color: #202121;
+  font-weight: 800;
+}
+footer .social-icons a{
+  margin: 0 .7em 0 0;
+}
+footer .schedule{
+  font-weight: 400;
+  font-size: 1.5em;
+
+}
+.schedule a{
+  font-weight: 700;
+  border-bottom: 1px solid #202121;
+  margin-left: .2em;
+}
+
+/* F O O T E R */
+
+
+/* EVALUATION SYSTEM */
+/* transparent Section */
+.page-heading{
+    padding: 50px 0;
+
+}
+.page-heading hr{
+    
+    width: 70px;
+    height: 3px;
+    background-color: #202121;
+    border: none;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.page-heading h1{
+    font-size: 40px;
+    font-weight: 900;
+    width:80%;
+    color:#202121;
+    
+}
+.page-heading p{
+    width: 55%;
+    margin-top: 40px;
+    color:#202121;
+}
+/* transparent Section */
+
+/* Criteria Section */
+
+.box-content h3 {
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    
+}
+.box-content h3::after{
+    left: 5px;
+    bottom: 0;
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color:#202121;
+    
+    
+}
+
+.box-content span {
+    font-weight: 900;
+    font-size: 17;
+    
+}
+.box-content li{
+    background-color: #f4f7f6;
+}
+.percentage h1{
+    position: relative;
+    font-size: 80px;
+    font-weight: 800;
+}
+.percentage h1::after{
+    content: '%';
+    bottom: 1px;
+    position: absolute;
+    font-size: 16px;
+}
+.box-item{
+    position: relative;
+    margin-top: 30px;
+    
+}
+/* Criteria Section */
+/* Voting System Section */
+
+.Users{
+    padding-bottom: 30px;
+}
+.Users p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.Users span{
+    font-weight: 700;
+    font-size: 16px;
+   
+}
+.rate{
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    left: 0;
+    text-align:center; 
+    top: 45%;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.iteem{
+        padding: 10px 0;
+
+}
+.img-vote{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.item{
+    padding: 10px 0;
+}
+.item::after{
+     content: '+';
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    
+}
+/* Voting System Section */
+/* Submission Process */
+
+.section-img{
+    padding: 40px;
+}
+.section-img-2{
+    position: relative;
+    top: -100px;
+    padding: 40px;
+}
+.box-certificate{
+    margin-top: 10px;
+        margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    border: 5px solid #fcfcfc;
+}
+/* Submission Process */
+
+
+
+
+
+
